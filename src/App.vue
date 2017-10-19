@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Toolbar/>
-    <Carousel/>
+    <Toolbar class='toolbar'/>
+    <Carousel class='carousel'/>
     <b-container class="bv-example-row">
       <b-row>
           <b-col class='twitter'><TwitterFeeds/></b-col>
@@ -12,7 +12,7 @@
           <b-col cols="11" class='cards'><Events/></b-col>
       </b-row>
     </b-container>
-
+    <Copyrightbar/>
 
 
 
@@ -26,7 +26,7 @@ import TwitterFeeds from './components/TwitterFeeds'
 import TwitterEvents from './components/TwitterEvents'
 import Members from './components/Members'
 import Events from './components/Events'
-import Footer from './components/Footer'
+import Copyrightbar from './components/Copyrightbar'
 
 export default {
   name: 'app',
@@ -37,7 +37,7 @@ export default {
     TwitterEvents,
     Members,
     Events,
-    Footer
+    Copyrightbar
   }
 }
 </script>
@@ -45,6 +45,18 @@ export default {
 <style>
 #app {
 
+}
+
+.toolbar {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.carousel {
+  margin-top: 75px;
 }
 
 .twitter {

@@ -1,9 +1,8 @@
 <template>
   <div class='feed'>
-    <h4>B:CIVIC Twitter</h4>
-    <b-card class="text-center">
-      This is some text within the default card block.
-    </b-card>
+    <div class="title">
+      <h4>B:CIVIC Twitter</h4>
+    </div>
     <b-card class="text-center">
       This is some text within the default card block.
     </b-card>
@@ -25,6 +24,11 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 h4 {
   font-weight: bold;
   color: #004286;

@@ -1,5 +1,5 @@
 <template>
-  <div class='event'>
+  <div class='member'>
     <b-card class='card' title="Highlighted Members">
       <b-container class="card-body">
           <b-row>
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+.member{
+  margin-top: 33px;
+}
 .card {
   font-weight: 600;
   color: #004286;

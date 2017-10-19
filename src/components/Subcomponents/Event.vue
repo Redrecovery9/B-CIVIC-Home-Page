@@ -29,6 +29,10 @@ export default {
 </script>
 
 <style scoped>
+.event{
+  margin-top: 33px;
+}
+
 .card {
   font-weight: 600;
   color: #004286;
