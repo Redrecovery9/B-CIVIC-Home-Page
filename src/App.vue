@@ -12,7 +12,7 @@
           <b-col cols="11" class='cards'><Events/></b-col>
       </b-row>
     </b-container>
-    <Copyrightbar/>
+    <Copyrightbar class='copyrightbar'/>
 
 
 
