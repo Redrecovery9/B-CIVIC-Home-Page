@@ -1,20 +1,18 @@
 <template>
   <div class='feed'>
     <div class="title">
-      <h4>B:CIVIC Twitter</h4>
+      <b-card title="B:CIVIC Feed">
+        <b-card class="text-center">
+          This is some text within the default card block.
+        </b-card>
+        <b-card class="text-center">
+          This is some text within the default card block.
+        </b-card>
+        <b-card class="text-center">
+          This is some text within the default card block.
+        </b-card>
+      </b-card>
     </div>
-    <b-card class="text-center">
-      This is some text within the default card block.
-    </b-card>
-    <b-card class="text-center">
-      This is some text within the default card block.
-    </b-card>
-    <b-card class="text-center">
-      This is some text within the default card block.
-    </b-card>
-    <b-card class="text-center">
-      This is some text within the default card block.
-    </b-card>
   </div>
 </template>
 
@@ -24,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+.feed {
+  margin-top: 15px;
+}
+
 .title {
   display: flex;
   justify-content: center;

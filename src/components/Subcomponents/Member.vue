@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .member{
-  margin-top: 33px;
+  margin-top: 15px;
 }
 .card {
   font-weight: 600;

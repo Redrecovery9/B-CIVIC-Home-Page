@@ -61,12 +61,12 @@ export default {
 
 .twitter {
   margin-top: 10px;
-  margin-left: -150px;
+  margin-left: -135px;
   margin-right: -20px
 }
 
 .cards {
   margin-top: 10px;
-  margin-right: -150px;
+  margin-right: -115px;
 }
 </style>

@@ -78,8 +78,7 @@ export default {
 .rightcopy {
   color: #73DC44;
   margin-top: 50px;
-  margin-left: 125px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .icons {
