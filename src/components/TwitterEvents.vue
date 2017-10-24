@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TwitterEvent from './Subcomponents/TwitterEvent'
+import TwitterEvent from './lists/TwitterEvent'
 
 export default {
   name: 'TwitterEvents',

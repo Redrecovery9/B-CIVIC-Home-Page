@@ -13,9 +13,6 @@
       </b-row>
     </b-container>
     <Copyrightbar class='copyrightbar'/>
-
-
-
   </div>
 </template>
 

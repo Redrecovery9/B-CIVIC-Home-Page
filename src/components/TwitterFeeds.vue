@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TwitterFeed from './Subcomponents/TwitterFeed'
+import TwitterFeed from './lists/TwitterFeed'
 
 export default {
   name: 'TwitterFeeds',

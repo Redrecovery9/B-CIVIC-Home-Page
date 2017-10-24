@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Event from './Subcomponents/Event'
+import Event from './lists/Event'
 
 export default {
   name: 'Events',

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Member from './Subcomponents/Member'
+import Member from './lists/Member'
 
 export default {
   name: 'Members',
