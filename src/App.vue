@@ -4,7 +4,7 @@
     <Carousel class='carousel'/>
     <b-container class="bv-example-row">
       <b-row>
-          <b-col class='twitter'><TwitterFeeds/></b-col>
+          <b-col class='twitter'><TwitterFeeds  :feeds='feeds'/></b-col>
           <b-col cols="11" class='cards'><Members/></b-col>
       </b-row>
       <b-row>
@@ -35,7 +35,12 @@ export default {
     Members,
     Events,
     Copyrightbar
-  }
+  },
+  data() {
+    return {
+      feeds: [],
+    }
+  },
 }
 </script>
 
