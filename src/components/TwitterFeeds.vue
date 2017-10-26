@@ -44,7 +44,7 @@ export default {
 }
 
 h4.card-title {
-  width: 95%;
+  width: 85%;
   height: 40px;
   margin-top: -30px;
   background-color: white;
