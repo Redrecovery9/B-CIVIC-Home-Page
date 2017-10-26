@@ -4,13 +4,13 @@
       <b-container class="card-body">
           <b-row>
             <b-col>
-              <b-img thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
+              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
             </b-col>
             <b-col>
-              <b-img thumbnail fluid src="https://lorempixel.com/250/250/technics/8/" alt="Thumbnail" />
+              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/8/" alt="Thumbnail" />
             </b-col>
             <b-col>
-              <b-img thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
+              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
             </b-col>
           </b-row>
       </b-container>
@@ -27,6 +27,7 @@ export default {
 .member{
   margin-top: 15px;
 }
+
 .card {
   font-weight: 600;
   color: #004286;

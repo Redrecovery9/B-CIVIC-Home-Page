@@ -34,8 +34,6 @@ export default {
 <style scoped>
 .twitterfeeds {
   margin-top: 15px;
-  max-height: 200px;
-  /*overflow: scroll;*/
 }
 
 .title {
@@ -51,12 +49,12 @@ h4.card-title {
   font-weight: bold;
   color: #004286;
   position: absolute;
-  z-index: 1000;
+  z-index: 900;
 }
 
 .card-body {
   width: 330px;
-  height: 379px;
+  height: 355px;
   margin-top: 25px;
   overflow: scroll;
 }
