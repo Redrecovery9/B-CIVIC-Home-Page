@@ -1,21 +1,16 @@
 <template>
   <div class='event'>
     <b-card class='card' title="Upcoming Events">
-      <span class='event-date'>Date: 11/14/2017</span>
+      <span class='event-date'>Date: {{convention.date}}</span>
       <b-container class="card-body">
           <b-row>
               <b-col><img class='card-img' src="../../../assets/BCIVIC-Summit-Logo.jpg" alt="Card image"></b-col>
-              <b-col cols='7'><p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+              <b-col cols='7'>
+                <h3>{{convention.name}}</h3>
+                <p class="card-text">
+                {{convention.description}}
               </p>
-              <br>
-              <p class='keynotes'>KeyNotes: </p>
+              <p class='keynotes' v-for='people in convention.people' :people="people" key=''>KeyNotes: {{people.name}}</p>
               </b-col>
           </b-row>
       </b-container>
@@ -28,6 +23,7 @@
 
 <script>
 export default {
+  props: ['convention']
 }
 </script>
 

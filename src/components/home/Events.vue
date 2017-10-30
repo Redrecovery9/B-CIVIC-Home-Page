@@ -1,6 +1,6 @@
 <template>
   <div class="events">
-    <Event></Event>
+    <Event v-for='convention in conventions' :convention="convention" key=''></Event>
   </div>
 </template>
 
@@ -12,18 +12,17 @@ export default {
   props: [],
   data() {
     return {
-      convention,
+      conventions: [],
     }
   },
   components: {
     Event,
   },
-  // async mounted(){
-  //   const data = await fetch(`https://bcivic-server.herokuapp.com/convention`)
-  //   const response = await data.json()
-  //   console.log(response);
-  //   this.feeds = response
-  // },
+  async mounted(){
+    const data = await fetch(`https://bcivic-server.herokuapp.com/convention`)
+    const response = await data.json()
+    this.conventions = response
+  },
 }
 </script>
 

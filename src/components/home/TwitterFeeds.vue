@@ -25,7 +25,6 @@ export default {
   async mounted(){
     const data = await fetch(`https://bcivic-server.herokuapp.com/twitter/feed`)
     const response = await data.json()
-    console.log(response);
     this.feeds = response
   },
 }
@@ -54,7 +53,7 @@ h4.card-title {
 
 .card-body {
   width: 330px;
-  height: 355px;
+  height: 343px;
   margin-top: 25px;
   overflow: scroll;
 }

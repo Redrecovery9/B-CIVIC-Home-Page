@@ -1,15 +1,8 @@
 <template>
   <div class='event'>
     <div class="title">
-      <b-card title="B:CIVIC Events">
         <b-card class="text-center">
-          This is some text within the default card block.
-        </b-card>
-        <b-card class="text-center">
-          This is some text within the default card block.
-        </b-card>
-        <b-card class="text-center">
-          This is some text within the default card block.
+          {{ hashtag.text }}
         </b-card>
       </b-card>
     </div>
@@ -18,6 +11,7 @@
 
 <script>
 export default {
+  props: ['hashtag']
 }
 </script>
 
