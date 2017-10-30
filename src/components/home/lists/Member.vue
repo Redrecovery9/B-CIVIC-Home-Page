@@ -4,13 +4,13 @@
       <b-container class="card-body">
           <b-row>
             <b-col>
-              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
+              <img class='image' fluid src="../../../assets/first_bank_logo.jpg" alt="Thumbnail" />
             </b-col>
             <b-col>
-              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/8/" alt="Thumbnail" />
+              <img class='image' fluid src="../../../assets/Davita.png" alt="Thumbnail" />
             </b-col>
             <b-col>
-              <b-img class='image' thumbnail fluid src="https://lorempixel.com/250/250/technics/4/" alt="Thumbnail" />
+              <img class='image' fluid src="../../../assets/kaiser-permanente-logo.png" alt="Thumbnail" />
             </b-col>
           </b-row>
       </b-container>
@@ -31,5 +31,10 @@ export default {
 .card {
   font-weight: 600;
   color: #004286;
+}
+
+.image {
+  max-width: 250px;
+  height: auto;
 }
 </style>

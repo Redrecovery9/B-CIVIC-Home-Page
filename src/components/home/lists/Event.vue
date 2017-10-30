@@ -1,11 +1,11 @@
 <template>
   <div class='event'>
     <b-card class='card' title="Upcoming Events">
-      <span class='event-date'>Date: mm/dd/yyyy</span>
+      <span class='event-date'>Date: 11/14/2017</span>
       <b-container class="card-body">
           <b-row>
-              <b-col><img class='card-img' src="https://placekitten.com/1000/300" alt="Card image"></b-col>
-              <b-col><p class="card-text">
+              <b-col><img class='card-img' src="../../../assets/BCIVIC-Summit-Logo.jpg" alt="Card image"></b-col>
+              <b-col cols='7'><p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -13,7 +13,10 @@
                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est laborum.
-              </p></b-col>
+              </p>
+              <br>
+              <p class='keynotes'>KeyNotes: </p>
+              </b-col>
           </b-row>
       </b-container>
       <b-container class='card-link-con'>
@@ -58,5 +61,13 @@ export default {
   color: #73DC44;
 }
 
+.card-img {
+  max-width: 350px;
+  height: auto;
+}
+
+.keynotes {
+  color: #73DC44
+}
 
 </style>
