@@ -50,7 +50,7 @@ h4.card-title {
 
 .card-body {
   width: 330px;
-  height: 334px;
+  height: 379px;
   margin-top: 25px;
   overflow: scroll;
 }

@@ -6,7 +6,7 @@
         <b-collapse is-nav id="nav_dropdown_collapse">
           <b-nav is-nav-bar>
             <b-navbar-brand href="#">
-              <img class='bcivic-logo' src="../assets/BCIVIC-Logo.jpeg" alt="BCIVIC Logo">
+              <img class='bcivic-logo' src="../assets/BCIVICLOGO1.png" alt="BCIVIC Logo">
             </b-navbar-brand>
             <b-nav-item href="#"><b-nav-text class='nav-links'>About</b-nav-text></b-nav-item>
             <b-nav-item href="#"><b-nav-text class='nav-links'>Calendar</b-nav-text></b-nav-item>
