@@ -8,7 +8,6 @@
             <b-navbar-brand href="#">
               <img class='bcivic-logo' src="../assets/BCIVIC-Logo.jpeg" alt="BCIVIC Logo">
             </b-navbar-brand>
-            <b-nav-item href="#"><b-nav-text class='nav-links'>Home</b-nav-text></b-nav-item>
             <b-nav-item href="#"><b-nav-text class='nav-links'>About</b-nav-text></b-nav-item>
             <b-nav-item href="#"><b-nav-text class='nav-links'>Calendar</b-nav-text></b-nav-item>
             <b-nav-item-dropdown class='dropdown-links' text="Members" right>

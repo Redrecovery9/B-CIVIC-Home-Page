@@ -12,9 +12,9 @@
   "dependencies": {
     "bootstrap-vue": "^1.0.0-beta.9",
     "dotenv": "^4.0.0",
-    "moment": "^2.19.1",
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.3",
+    "vue-moment": "^2.1.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

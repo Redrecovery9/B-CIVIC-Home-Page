@@ -1,7 +1,7 @@
 <template>
   <div class='event'>
     <b-card class='card' title="Upcoming Events">
-      <span class='event-date'>Date: {{convention.date}}</span>
+      <span class='event-date'>Date: {{convention.date | moment("dddd, MMMM Do YYYY") }}</span>
       <b-container class="card-body">
           <b-row>
               <b-col><img class='card-img' src="../../../assets/BCIVIC-Summit-Logo.jpg" alt="Card image"></b-col>
@@ -10,7 +10,10 @@
                 <p class="card-text">
                 {{convention.description}}
               </p>
-              <p class='keynotes' v-for='people in convention.people' :people="people" key=''>KeyNotes: {{people.name}}</p>
+              <p class='keynotes'>Key Notes:
+                <span class='keynote' v-for='people in convention.people' :people="people" key=''>{{people.name}}
+                </span>
+              </p>
               </b-col>
           </b-row>
       </b-container>
@@ -63,7 +66,13 @@ export default {
 }
 
 .keynotes {
+  display: inline-block;
   color: #73DC44
+}
+
+.keynote {
+  color: #004286;
+  margin-right: 20px;
 }
 
 </style>

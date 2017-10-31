@@ -2,13 +2,12 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import BootstrapVue from 'bootstrap-vue'
-import Moment from 'moment'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 import { routes } from './routes'
 
 Vue.use(VueRouter)
-Vue.use(Moment)
+Vue.use(require('vue-moment'))
 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
