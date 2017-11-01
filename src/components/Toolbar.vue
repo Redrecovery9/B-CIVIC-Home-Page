@@ -70,6 +70,9 @@ export default {
   margin-top: 8px;
 }
 
+.dropdown-links a span:hover{
+  color: #004286;
+}
 .navbar-light .navbar-nav .nav-link:hover {
   color: #004286;
 }

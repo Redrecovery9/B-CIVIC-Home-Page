@@ -24,6 +24,7 @@ export default {
   async mounted(){
     const data = await fetch(`https://bcivic-server.herokuapp.com/twitter/hashtag`)
     const response = await data.json()
+    console.log(response);
     this.hashtags = response
   },
 }

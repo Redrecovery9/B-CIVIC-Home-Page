@@ -1,6 +1,8 @@
 <template>
   <div class='feed'>
     <b-card no-body class="text-center">
+      @{{feed.user.screen_name}}  {{feed.created_at | moment(" MMM D YYYY") }}
+      <br>
       {{feed.text}}
     </b-card>
   </div>

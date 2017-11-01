@@ -25,6 +25,7 @@ export default {
   async mounted(){
     const data = await fetch(`https://bcivic-server.herokuapp.com/twitter/feed`)
     const response = await data.json()
+    console.log(response);
     this.feeds = response
   },
 }
