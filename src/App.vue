@@ -37,4 +37,8 @@ export default {
   z-index: 1000;
 }
 
+.copyrightbar {
+  bottom: 0;
+}
+
 </style>

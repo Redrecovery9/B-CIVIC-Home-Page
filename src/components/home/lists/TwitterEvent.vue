@@ -1,7 +1,7 @@
 <template>
   <div class='event'>
     <div class="title">
-        <b-card class="text-center">
+        <b-card no-body class="text-center">
           {{ hashtag.text }}
         </b-card>
       </b-card>
@@ -16,13 +16,8 @@ export default {
 </script>
 
 <style scoped>
-.title {
-  display: flex;
-  justify-content: center;
-}
-
-h4 {
-  font-weight: bold;
-  color: #73DC44;
+.text-center {
+  font-size: .8em;
+  margin-top: 3px;
 }
 </style>

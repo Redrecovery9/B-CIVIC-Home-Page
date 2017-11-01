@@ -10,8 +10,6 @@
                 img-width="1024"
                 img-height="480"
                 v-model="slide"
-                @sliding-start="onSlideStart"
-                @sliding-end="onSlideEnd"
                 >
         <b-carousel-slide>
           <img slot="img" class="d-block img-fluid w-100" width="1024" height="480"

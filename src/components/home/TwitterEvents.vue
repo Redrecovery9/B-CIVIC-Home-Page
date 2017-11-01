@@ -2,7 +2,7 @@
   <div class="twitterevents">
       <div class="title">
         <b-card title="B:CIVIC Events">
-          <TwitterEvent class='cards' v-for='hashtag in hashtags' :hashtag="hashtag" key=''/>
+          <TwitterEvent class='cards' v-for='hashtag in hashtags.statuses' :hashtag="hashtag" key=''/>
         </b-card>
       </div>
   </div>
@@ -24,7 +24,6 @@ export default {
   async mounted(){
     const data = await fetch(`https://bcivic-server.herokuapp.com/twitter/hashtag`)
     const response = await data.json()
-    console.log(response);
     this.hashtags = response
   },
 }
