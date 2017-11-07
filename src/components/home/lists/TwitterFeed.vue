@@ -1,7 +1,8 @@
 <template>
   <div class='feed'>
-    <b-card no-body class="text-center">
-      @{{feed.user.screen_name}}  {{feed.created_at | moment(" MMM D YYYY") }}
+    <b-card no-body class="text">
+      @{{feed.user.screen_name}}
+      {{feed.created_at | moment(" MMM D YYYY") }}
       <br>
       {{feed.text}}
     </b-card>
@@ -15,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-.text-center {
+.text{
   font-size: .8em;
   margin-top: 3px;
 }

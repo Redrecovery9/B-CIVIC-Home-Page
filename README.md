@@ -1,21 +1,20 @@
-# bcivic-site
+![BCIVIC Logo](assets/BCIVICLOGO1.png)
+# BCIVIC new vue
+This new webpage for BCIVIC makes it dynamic and gives a seamless new design
+to their home page.
 
-> A prototype of bcivics webpage
+## Webpage URL
+https://bcivic-v1.firebaseapp.com/
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Built With
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- MongoDB
+- Vue.js
+- Bootstrap Vue
+- Vue Moment
+- Mongoose
+- Firebase
+- Heroku
