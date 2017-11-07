@@ -1,5 +1,5 @@
 ![BCIVIC Logo](./src/assets/BCIVICLOGO1.png)
-# BCIVIC new vue
+# BCIVIC's new vue
 This new webpage for BCIVIC makes it dynamic and gives a seamless new design
 to their home page.
 
